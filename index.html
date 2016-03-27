@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <title>Awesome Boilerplate</title>
@@ -12,18 +12,28 @@
 		<div>
 			<h1><span>Awesome</span> Boilerplate</h1>
 			<p>
-				<label>Jump To Content</label><br>
-				<label>Jump To Footer</label><br>
-				<label>Jump To Kitties</label>
+				<a href="#content">Direkt zum Inhalt!</a><br/>
+				<a href="#footer">Ab zum Footer!</a><br/>
+				<a href="http://hellokitty.com/">Hier geht's zu den Katzen!</a>
 			</p>
 		</div>
 	</header>
 	<main>
 		<section>
 			<article>
-			<!--ToDo Input Fields-->	
-			Input fields belongs here :)
-
+			<p id="content">
+			<p>Bitte ausfüllen!</p>
+			<input type="Name" size="30" maxlength="40" value="Ihr Name"/>
+			<input type="Vorname" size="30" maxlength="40" value="Ihr Vorname"/>
+			<input type="Email" size="30" maxlength="40" value="Ihr E-Mail"/>
+			<input type="Telefonnummer" size="30" maxlength="40" value="Ihre Telefonnummer"/>
+			<input type="Geburtsdatum" size="30" maxlength="40" value="Ihr Geburtsdatum"/>
+			<br/>
+			<select name="Studiengang" size="1">
+			<option value="uib">UIB</option>
+			<option value="imb">IMB</option>
+			<option value="ib">IB</option>
+			<input type="submit">
 			</article>
 
 		</section>
@@ -63,13 +73,13 @@
 				<h3>Follow Us</h3>
 				<p>
 					Falls du fragen hast, kannst du dich jederzeit an 
-					<a href="https://git.com/CodeKittey">@Codekittey</a>, wenden oder eine
+					<a href="https://github.com/CodeKittey">@Codekittey</a>, wenden oder eine
 					Email schreiben: m.kraus@hs-mannheim.de
 				</p>
 			</article>
 		</section>
 	</main>
-	<footer>
+	<p id="footer">
 		<img src="img/nodschool.svg"></a>
 	</footer>
 	<script src="design/index.js"></script>
